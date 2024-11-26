@@ -1,0 +1,16 @@
+projet_prediction_maladies_cardiaques/
+│
+├── donnees/                 # Données utilisées dans le projet
+│   ├── brutes/              # Données brutes (originales)
+│   ├── traitees/            # Données nettoyées et prêtes pour l'analyse
+│
+├── modeles/                 # Modèles sauvegardés (fichiers .pkl ou .joblib)
+│
+├── scripts/                 # Scripts Python pour chaque étape
+│   ├── preparation_donnees.py   # Nettoyage et préparation des données
+│   ├── entrainement_modeles.py  # Entraînement et évaluation des modèles
+│   ├── explicabilite_modeles.py # Analyse explicative des prédictions
+│
+├── app.py                   # Application Streamlit principale
+├── requirements.txt         # Liste des bibliothèques nécessaires
+├── README.md                # Documentation du projet
